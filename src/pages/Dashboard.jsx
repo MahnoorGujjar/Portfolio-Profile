@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export default function Dashboard(){
   const [profile, setProfile] = useState(null);
   const [loading, setLoading] = useState(true);
-
+// add
   useEffect(()=>{
     const load = async () => {
       const token = getAuthToken();
